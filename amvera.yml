@@ -9,3 +9,4 @@ build:
 
 run:
   command: gunicorn --bind 0.0.0.0:80 landing:app
+  containerPort: 80
